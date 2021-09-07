@@ -4,18 +4,18 @@ import json
 from web3 import Web3
 
 # Setting up Etherium endpoint for web3
-infura_url = "https://ropsten.infura.io/v3/4c3ca906f2c24666adc9f8e757b4d928"
+infura_url = ""
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # Tokens to swap
-tokenIn = "0x6cF1Af1CD82D19EAEBf7d43cC32d46067bA0C96B"  # FGT
-tokenOut = "0x1555a66Eb503D91a9d32042E282af5dF37271977"  # MYT
+tokenIn = ""
+tokenOut = ""
 
 # Wallet address
-recipient = "0x5C036bEe95B37532D7bc364f756efa10667f1aA3"
+recipient = ""
 # Key for signing
 recipient_private_key = (
-    "31921fc8e1998857375c3f06fda830226d0025053b4a76294a8e77df0c1ad6fe"
+    ""
 )
 
 # Swaping parameters
